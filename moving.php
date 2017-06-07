@@ -10,7 +10,7 @@
   use Rimksky\Util\Config;
 
   try{
-    $config= Config::getInstance()->config;
+    $config= Config::ins()->config;
     $app = new DropboxApp( "", "", $config->token );
     $dropbox = new Dropbox( $app );
 
