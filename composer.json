@@ -1,0 +1,12 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rimksky/composer-config.git"
+        }
+    ],
+    "require": {
+        "kunalvarma05/dropbox-php-sdk": "^0.2.0",
+        "rimksky/config": "dev-master"
+    }
+}
