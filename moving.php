@@ -7,7 +7,7 @@
   use Kunnu\Dropbox\Dropbox;
   use Kunnu\Dropbox\DropboxApp;
   use Kunnu\Dropbox\DropboxFile;
-  use Rimksky\Config\Config;
+  use Rimksky\Util\Config;
 
   try{
     $config= Config::getInstance()->config;
